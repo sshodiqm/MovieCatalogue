@@ -6,10 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat.startActivity
-import androidx.fragment.app.FragmentContainer
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_movie.*
 import retrofit2.Call
@@ -62,7 +58,7 @@ class MovieFragment : Fragment() {
     }
 
     private fun getMovieData(callback: (List<Movie>) -> Unit){
-        val apiService = MovieApiService.getInstance().create(MovieApiInterface::class.java)
+        val apiService = ApiService.getInstance().create(MovieApiInterface::class.java)
         apiService.getMovieList().enqueue(object : Callback<MovieResponse> {
             override fun onFailure(call: Call<MovieResponse>, t: Throwable) {
 
