@@ -16,8 +16,8 @@
         android:label="fragment_tv_show"
         tools:layout="@layout/fragment_tv_show" />
     <fragment
-        android:id="@+id/favoriteFragment"
-        android:name="com.example.moviecatalogue.FavoriteFragment"
+        android:id="@+id/profileFragment"
+        android:name="com.example.moviecatalogue.ProfileFragment"
         android:label="fragment_favorite"
-        tools:layout="@layout/fragment_favorite" />
+        tools:layout="@layout/fragment_profile" />
 </navigation>

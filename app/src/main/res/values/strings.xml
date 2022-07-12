@@ -2,4 +2,6 @@
     <string name="app_name">Movie Catalogue</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="myname">Said Shodiq Mufadhol</string>
+    <string name="deskripsi">Assalamualaikum, Halo semuanya!! perkenalkan nama saya Said Shodiq Mufadhol, saya adalah mahasiswa STMIK Amik Riau. Matakuliah yang paling saya minati di kampus saya adalah pemrograman mobile berbasis android. untuk mengasah pemahaman saya, kali ini saya bereksperimen dengan membangun suatu aplikasi Movie Catalogue yang mana data didalamnya saya dapatkan dari API TMDB</string>
 </resources>
